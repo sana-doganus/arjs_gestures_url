@@ -22,31 +22,16 @@
       gesture-detector
       id="scene"
     >
-      <a-assets>
-        <a-asset-item
-          id="bowser"
-          src="burger.glb"
-        >
-        </a-asset-item>
-      </a-assets>
 
       <a-marker
         type="pattern"
-        url="pattern-j.patt"
+        url="pattern_eaca.patt"
         raycaster="objects: .clickable"
         emitevents="true"
         cursor="fuse: false; rayOrigin: mouse;"
         id="markerA"
       >
-        <a-entity
-          id="bowser-model"
-          gltf-model="#bowser"
-          position="0 0 0"
-          scale="1 1 1"
-          class="clickable"
-          gesture-handler
-        >
-        </a-entity>
+        <a-link href="https://еаси.екатеринбург.рф"></a-link>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
